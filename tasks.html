@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SET D - JavaScript Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>SET D – JavaScript Project</h1>
+
+<div class="menu">
+    <a href="#task1">1</a><a href="#task2">2</a><a href="#task3">3</a><a href="#task4">4</a><a href="#task5">5</a>
+    <a href="#task6">6</a><a href="#task7">7</a><a href="#task8">8</a><a href="#task9">9</a><a href="#task10">10</a>
+    <a href="#task11">11</a><a href="#task12">12</a><a href="#task13">13</a><a href="#task14">14</a><a href="#task15">15</a>
+    <a href="#task16">16</a><a href="#task17">17</a><a href="#task18">18</a><a href="#task19">19</a><a href="#task20">20</a>
+    <a href="#task21">21</a><a href="#task22">22</a><a href="#task23">23</a><a href="#task24">24</a><a href="#task25">25</a>
+    <a href="#task26">26</a><a href="#task27">27</a><a href="#task28">28</a><a href="#task29">29</a><a href="#task30">30</a>
+</div>
+
+<section id="task1"><h2>1. Reverse Words Order</h2><p>Enter a sentence and reverse word order.</p><input id="t1" placeholder="Enter sentence"><button onclick="task1()">Run</button><p id="o1"></p></section>
+
+<section id="task2"><h2>2. Extract Characters</h2><p>Extract first, third, fourth and last characters.</p><input id="t2" placeholder="Enter text"><button onclick="task2()">Run</button><p id="o2"></p></section>
+
+<section id="task3"><h2>3. Longest Word</h2><p>Find longest word from string.</p><input id="t3" placeholder="Enter sentence"><button onclick="task3()">Run</button><p id="o3"></p></section>
+
+<section id="task4"><h2>4. Toggle Case</h2><p>Convert uppercase to lowercase and lowercase to uppercase.</p><input id="t4" placeholder="Enter text"><button onclick="task4()">Run</button><p id="o4"></p></section>
+
+<section id="task5"><h2>5. Word Count + Space Count</h2><p>Count words and spaces.</p><input id="t5" placeholder="Enter sentence"><button onclick="task5()">Run</button><p id="o5"></p></section>
+
+<section id="task6"><h2>6. Trim Extra Spaces</h2><p>Remove extra spaces from text.</p><input id="t6" placeholder="Enter text with spaces"><button onclick="task6()">Run</button><p id="o6"></p></section>
+
+<section id="task7"><h2>7. Fruits Array</h2><p>Create fruits array and show third element.</p><button onclick="task7()">Run</button><p id="o7"></p></section>
+
+<section id="task8"><h2>8. Remove Duplicates</h2><p>Remove duplicate values from array.</p><input id="t8" placeholder="apple,banana,apple,orange"><button onclick="task8()">Run</button><p id="o8"></p></section>
+
+<section id="task9"><h2>9. Last Element Popup</h2><p>Find last element from array using popup.</p><button onclick="task9()">Run</button><p id="o9"></p></section>
+
+<section id="task10"><h2>10. Find Index</h2><p>Find index of element from array.</p><input id="t10" placeholder="Enter element"><button onclick="task10()">Run</button><p id="o10"></p></section>
+
+<section id="task11"><h2>11. Map Double</h2><p>Double each number using map().</p><input id="t11" placeholder="1,2,3,4"><button onclick="task11()">Run</button><p id="o11"></p></section>
+
+<section id="task12"><h2>12. Map Uppercase</h2><p>Convert array strings to uppercase.</p><input id="t12" placeholder="apple,banana,mango"><button onclick="task12()">Run</button><p id="o12"></p></section>
+
+<section id="task13"><h2>13. Splice Replace</h2><p>Replace elements one by one using splice().</p><button onclick="task13()">Run</button><p id="o13"></p></section>
+
+<section id="task14"><h2>14. Splice Delete</h2><p>Delete elements one by one using splice().</p><button onclick="task14()">Run</button><p id="o14"></p></section>
+
+<section id="task15"><h2>15. Arithmetic Based On Choice</h2><p>Choose operation and calculate.</p><input id="t15a" type="number" placeholder="First number"><input id="t15b" type="number" placeholder="Second number"><select id="t15op"><option>+</option><option>-</option><option>*</option><option>/</option></select><button onclick="task15()">Run</button><p id="o15"></p></section>
+
+<section id="task16"><h2>16. Swap Two Numbers</h2><p>Swap two numbers.</p><input id="t16a" placeholder="First number"><input id="t16b" placeholder="Second number"><button onclick="task16()">Run</button><p id="o16"></p></section>
+
+<section id="task17"><h2>17. Sum Of Digits</h2><p>Find sum of digits.</p><input id="t17" placeholder="Enter number"><button onclick="task17()">Run</button><p id="o17"></p></section>
+
+<section id="task18"><h2>18. Reverse Number</h2><p>Reverse a number.</p><input id="t18" placeholder="Enter number"><button onclick="task18()">Run</button><p id="o18"></p></section>
+
+<section id="task19"><h2>19. Check Leap Year</h2><p>Check if year is leap year.</p><input id="t19" placeholder="Enter year"><button onclick="task19()">Run</button><p id="o19"></p></section>
+
+<section id="task20"><h2>20. 10 Digit Popup</h2><p>Popup allows only 10-digit input.</p><button onclick="task20()">Run</button><p id="o20"></p></section>
+
+<section id="task21"><h2>21. Numeric/String Rule</h2><p>Popup checks numeric or string input.</p><button onclick="task21()">Run</button><p id="o21"></p></section>
+
+<section id="task22"><h2>22. Required Field Check</h2><p>Validate required field.</p><input id="t22" placeholder="Required field"><button onclick="task22()">Run</button><p id="o22"></p></section>
+
+<section id="task23"><h2>23. Age Validation</h2><p>Age must be greater than or equal to 18.</p><input id="t23" type="number" placeholder="Enter age"><button onclick="task23()">Run</button><p id="o23"></p></section>
+
+<section id="task24"><h2>24. Signup Form Submit/Reset</h2><p>Signup form with submit and reset.</p><input id="name24" placeholder="Name"><input id="email24" placeholder="Email"><button onclick="task24()">Submit</button><button onclick="reset24()">Reset</button><p id="o24"></p></section>
+
+<section id="task25"><h2>25. Display Submitted Data</h2><p>Display submitted data and success message.</p><input id="name25" placeholder="Name"><input id="email25" placeholder="Email"><button onclick="task25()">Submit</button><p id="o25"></p></section>
+
+<section id="task26"><h2>26. Reset Clears Output</h2><p>Reset button clears output.</p><input id="t26" placeholder="Enter text"><button onclick="task26()">Show</button><button onclick="reset26()">Reset</button><p id="o26"></p></section>
+
+<section id="task27"><h2>27. Create Person Object</h2><p>Create and display person object.</p><button onclick="task27()">Run</button><p id="o27"></p></section>
+
+<section id="task28"><h2>28. Store 3 Persons</h2><p>Store 3 persons in array and display.</p><button onclick="task28()">Run</button><p id="o28"></p></section>
+
+<section id="task29"><h2>29. Countdown Timer</h2><p>Countdown timer with Start, Pause and Reset.</p><input id="t29" type="number" placeholder="Seconds"><button onclick="startTimer()">Start</button><button onclick="pauseTimer()">Pause</button><button onclick="resetTimer()">Reset</button><p id="o29">0</p></section>
+
+<section id="task30" ondblclick="task30()"><h2>30. Double Click Clear Output</h2><p>Double-click this task area to clear output.</p><input id="t30" placeholder="Enter text"><button onclick="show30()">Show</button><p id="o30"></p></section>
+
+<script src="script.js"></script>
+</body>
+</html>>
